@@ -1,0 +1,188 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 20px;
+    background-color: #060529;
+  }
+
+.link {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+.body{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box {
+    width: 78%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 16%;
+    border-radius: 10000000px;
+    padding-top: 1%;
+    font-size: 60px;
+    }
+
+.tradingview-container {
+  padding-top: 12%;
+}
+
+/* .prodat {
+  background-color: #f54545;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.kupit {
+  background-color: #3f5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  border-radius: 10px;
+} */
+
+/* .link1 {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  } */
+
+/* .kupit:hover, .prodat:hover {
+  color: white;
+	background-color: gray;
+	transition: linear 0.2s;
+  border-radius: 10px;
+}
+
+.kupit input {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+
+} */
+
+.eth-info {
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 1400px;
+}
+.eth-info {
+  margin-top: 2.5rem
+}
+
+.eth-info p {
+  margin: 19px 0
+}
+
+.eth-info h2,.eth-info h3 {
+  margin: 1.5rem 0
+}
+
+.eth-info ul,.eth-info li {
+  list-style: inherit
+}
+
+.eth-info ul {
+  padding-left: 30px
+}
+
+.eth-info li {
+  margin: .5rem 0
+}
+
+.eth-info {
+  margin-top: 30px;
+  margin-left: 250px;
+  display: block;
+  width: 1400px;
+  color: black;
+}
+
+.footer-risk {
+  margin-top: 30px;
+  margin-left: 250px;
+  display: block;
+  width: 1400px;
+  color: white;
+}
+
+.footer {
+  background-color: #060529;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.dropbtn {
+  background-color: #060529;
+  color: white;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 260px;
+  box-shadow: black;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #060529;
+}
+
